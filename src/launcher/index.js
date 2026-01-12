@@ -11,8 +11,8 @@
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
-// https module reserved for future auto-download feature
-// const https = require('https');
+
+// TODO: Implement auto-download feature using https module
 
 // Configuration
 const CONFIG = {

@@ -1,8 +1,5 @@
 [
   {
-    "// Beginner-Friendly Keybindings": "Common shortcuts that work everywhere"
-  },
-  {
     "key": "ctrl+s",
     "command": "workbench.action.files.save",
     "when": "editorTextFocus"
