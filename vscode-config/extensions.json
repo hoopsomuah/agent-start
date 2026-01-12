@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "esbenp.prettier-vscode",
+    "usernamehw.errorlens",
+    "pkief.material-icon-theme"
+  ],
+  "// Core Extensions": {
+    "github.copilot": "AI pair programming - suggests code as you type",
+    "github.copilot-chat": "Conversational AI assistance for coding questions",
+    "esbenp.prettier-vscode": "Automatic code formatting on save",
+    "usernamehw.errorlens": "Shows errors inline for immediate feedback",
+    "pkief.material-icon-theme": "Beautiful file icons for easy navigation"
+  },
+  "unwantedRecommendations": []
+}

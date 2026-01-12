@@ -1,0 +1,80 @@
+[
+  {
+    "// Beginner-Friendly Keybindings": "Common shortcuts that work everywhere"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "undo",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "redo",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.inlineSuggest.trigger",
+    "when": "editorTextFocus && github.copilot.activated"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "github.copilot.acceptSuggestion",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.chat.open",
+    "when": "github.copilot.activated"
+  },
+  {
+    "key": "f5",
+    "command": "workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands"
+  }
+]

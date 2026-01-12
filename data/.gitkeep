@@ -1,0 +1,8 @@
+# This directory will contain VS Code and user data when running
+# It is excluded from version control
+
+# To set up a portable VS Code:
+# 1. Download VS Code from https://code.visualstudio.com
+# 2. Choose the 'zip' archive version
+# 3. Extract it to data/vscode/
+# 4. Run the launcher
